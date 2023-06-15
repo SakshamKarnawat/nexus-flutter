@@ -3,12 +3,12 @@
 A voice assistant app integrated with ChatGPT and Dall-E to generate images and text based on user input.
 
 ## Features
-- [x] Generate text based on voice input
-- [x] Generate images based on voice input
-- [x] Download and share generated images
-- [x] Understands conversational context
-- [x] Text to Speech functionality
-- [x] Animations
+- Generate text based on voice input
+- Generate images based on voice input
+- Download and share generated images
+- Understands conversational context
+- Text to Speech functionality
+- Animations
 <!-- - [x] Dark mode -->
 <!-- - [x] Storing messages locally using Hive or SQLite -->
 
