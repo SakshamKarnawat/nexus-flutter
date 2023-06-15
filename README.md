@@ -15,7 +15,7 @@ A voice assistant app integrated with ChatGPT and Dall-E to generate images and 
 ## How to run
 
 1. Clone the repo
-2. Generate a new API key from [here](https://openai.com/blog/openai-api/)
+2. Generate a new API key from [here](https://rapidapi.com/openai-api-openai-api-default/api/openai80)
 3. Create a new file called `.env' in the root directory of the project
 4. Add the following line to the `.env` file
    - `OPENAI_KEY=<YOUR_API_KEY>`
@@ -23,7 +23,7 @@ A voice assistant app integrated with ChatGPT and Dall-E to generate images and 
    - `flutter pub add --dev envied_generator`
    - `flutter pub add --dev build_runner`
 6. Run `flutter pub run build_runner build --delete-conflicting-outputs` to generate the `.env.g.dart` file
-7. Use `Env.openaiKey` to access the API key in the code
+7. Use `Env.RAPIDAPI_KEY` to access the API key in the code
 8. Run the app using `flutter run`
 
 ## Note
