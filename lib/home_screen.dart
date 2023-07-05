@@ -69,7 +69,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
   /// Each time to start a speech recognition session
   Future<void> startListening() async {
-    await speechToText.listen(onResult: onSpeechResult);
+    await speechToText.listen(
+        onResult: onSpeechResult, pauseFor: const Duration(seconds: 3));
     setState(() {});
   }
 
