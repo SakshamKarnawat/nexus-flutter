@@ -2,7 +2,7 @@ name: nexus
 description: A new Flutter project.
 publish_to: 'none'
 
-version: 1.0.0+1
+version: 1.0.0+3
 
 environment:
   sdk: '>=3.0.3 <4.0.0'
@@ -34,6 +34,7 @@ flutter:
   assets:
     - assets/images/
     - assets/sounds/
+    - shorebird.yaml
 
   fonts:
     - family: Cera Pro

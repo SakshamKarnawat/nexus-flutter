@@ -174,9 +174,7 @@ class _HomeScreenState extends State<HomeScreen> {
         centerTitle: true,
         leading: IconButton(
           icon: const Icon(Icons.menu),
-          onPressed: () {
-            print("Menu Clicked");
-          },
+          onPressed: () {},
         ),
       ),
       body: SingleChildScrollView(
